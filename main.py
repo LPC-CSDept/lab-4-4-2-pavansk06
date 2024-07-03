@@ -10,8 +10,9 @@ def main():
         except ValueError:
             print ('Input must be numeric')
             continue
-        
-        exit 
+        else:
+            print(number)
+            break 
         
         
             
