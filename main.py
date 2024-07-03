@@ -4,13 +4,15 @@ def main():
     Code Your Program here
     ########################################
     """
-    while :
+    while True:
         try:
             number = int(input('Enter a number '))
         except ValueError:
             print ('Input must be numeric')
             continue
-        else:
+        
+        exit 
+        
         
             
 
